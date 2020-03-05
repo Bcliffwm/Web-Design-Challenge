@@ -14,5 +14,7 @@ body {
 }
 
 .navbar li {
-    color:purple
+    display:inline;
+    padding: 20px;
+    cursor: pointer;
 }
