@@ -3,18 +3,25 @@ body {
 }
 
 .header {
-    color: turquoise
+    color:turquoise;
 }
 
-/* .navbar {    
-} */
+.navbar {  
+    padding: 10px;
+    background-color:#fff;  
+}
 
 .navbar h1{
-    color: red
+    background:turquoise;
 }
 
 .navbar li {
     display:inline;
     padding: 20px;
     cursor: pointer;
+}
+
+.navbar li a {
+    color:grey;
+    text-decoration: none;
 }
