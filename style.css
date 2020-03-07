@@ -2,7 +2,7 @@ body {
     background-color: #f1f1f1;
 }
 
-.row h1 {
+.navbar-brand a {
     color:turquoise;
 }
 
