@@ -2,7 +2,7 @@ body {
     background-color: #f1f1f1;
 }
 
-.navbar-brand a {
+.navbar-brand {
     color:turquoise;
 }
 
@@ -31,3 +31,7 @@ body {
 }
 
 /* main {} */
+
+#temp-img {
+    float:left;
+}
