@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  <!-- This is where the navbar is -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#" id="title">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +52,8 @@
         </nav>
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+          <!-- This is the first container -->
+            <div class="col-12 col-md-8">
                 <h1>
                     Summary: Latitude vs. X
                 </h1>
@@ -69,16 +71,24 @@
                 <a href='#'><img src="WebVisualizations\Resources\assets\images\Fig1.png" id="temp-img"></a>
             </main>
             </div>
-            <div class="col-md-4">
+            <div class="col-12 col-md-4">
                 <h2>
                     Visualizations
                 </h2>
-                <div class="visual-visualizations">
-                  <a href='#'><img src="WebVisualizations\Resources\assets\images\Fig1.png" id="temperature-img"></a>
-                  <a href='#'><img src="WebVisualizations\Resources\assets\images\Fig2.png" id="humidity-img"></a>
-                  <a href='#'><img src="WebVisualizations\Resources\assets\images\Fig3.png" id="cloudiness-img"></a>
-                  <a href='#'><img src="WebVisualizations\Resources\assets\images\Fig4.png" id="wind-img"></a>
+                <div class="container">
+                  <div class="visual-visualizations row">
+                    <div class="col-6">
+                      <a href='#'><img src="WebVisualizations\Resources\assets\images\Fig1.png" id="temperature-img"></a>
+                      <a href='#'><img src="WebVisualizations\Resources\assets\images\Fig2.png" id="humidity-img"></a>
+                    </div>
+                   <div class="col-6">
+                    <a href='#'><img src="WebVisualizations\Resources\assets\images\Fig3.png" id="cloudiness-img"></a>
+                    <a href='#'><img src="WebVisualizations\Resources\assets\images\Fig4.png" id="wind-img"></a>
+                   </div>
+                    
+                  </div>
                 </div>
+               
             </div>
         </div>
     </div>
