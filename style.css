@@ -2,9 +2,14 @@ body {
     background-color: #f1f1f1;
 }
 
-.navbar-brand {
-    color:turquoise;
+#title {
+    color:#fff;
+    background-color:turquoise;
+    font-size: xx-large;
+    padding: 10px;
 }
+
+#navbar-expand-lg navbar-light bg-light
 
 .navbar {  
     padding: 10px;
