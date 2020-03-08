@@ -39,44 +39,42 @@ body {
 
 #temp-img {
     float:left;
-    margin: 0,0, 10px, 10px;
+    margin: 0 10px;
     padding: 10px;
-    
-    image-rendering: auto;
-    height: 360px;
-    width: 360px;
 }
 
-.visual-visualizations{
-    display: inline;
+.visuals {
+    display: flex;
+    flex-wrap: wrap;
+}
+.summary {
+    display: inline-flex;
+    flex-direction: column;
 }
 
-#humidity-img {
-    padding:10px;
-    height: 240px;
-    width: 240px;
+.content > span,
+.content > a {
+    flex: 1;
+}
+img {
+    height: auto;
+    width: 100%;
 }
 
-#temperature-img {
-    padding:10px;
-    height: 240px;
-    width: 240px; 
+.summary-block,
+.visualizations-images {
+    background: white;
+    padding: 50px 25px;
+    margin: 100px auto;
 }
 
-#humidity-img {
-    padding:10px;
-    height: 240px;
-    width: 240px; 
+@media only screen and (min-width: 600px) {
+    .visuals > a {
+        flex: 0 50%;
+    }
+
+    .summary {
+        flex-direction: row;
+    }
 }
 
-#cloudiness-img {
-    padding:10px;
-    height: 240px;
-    width: 240px; 
-}
-
-#wind-img {
-    padding:10px;
-    height: 240px;
-    width: 240px;
-}
