@@ -41,3 +41,37 @@ body {
     height: 360px;
     width: 360px;
 }
+
+.visual-visualizations{
+    display: inline;
+}
+
+#humidity-img {
+    padding:10px;
+    height: 240px;
+    width: 240px;
+}
+
+#temperature-img {
+    padding:10px;
+    height: 240px;
+    width: 240px; 
+}
+
+#humidity-img {
+    padding:10px;
+    height: 240px;
+    width: 240px; 
+}
+
+#cloudiness-img {
+    padding:10px;
+    height: 240px;
+    width: 240px; 
+}
+
+#wind-img {
+    padding:10px;
+    height: 240px;
+    width: 240px;
+}
