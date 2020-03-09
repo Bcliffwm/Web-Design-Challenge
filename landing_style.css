@@ -35,6 +35,12 @@ body {
     text-decoration: none;
 }
 
+.btn-outline-success,
+.btn-outline-hover {
+    color: darkturquoise;
+    border-color: darkturquoise;
+}
+
 /* main {} */
 
 #temp-img {
