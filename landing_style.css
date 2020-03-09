@@ -88,6 +88,7 @@ img {
     font-size-adjust: none;
 }
 
+
 @media only screen and (min-width: 600px) {
     .visuals > a {
         flex: 0 50%;
