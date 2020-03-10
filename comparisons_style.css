@@ -40,23 +40,37 @@ body {
 #title.navbar-brand {
     color:#fff;
     text-decoration: none;
-    background-color: turquoise;
+    background-color:turquoise;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size-adjust: none;
 }
 
 /* Images Styling */
 .img {
-    height: auto;
+    height: fit-content;
     width: 100%;
+    display: inline-flex;
+    vertical-align: middle;
+    border-style: none;
 }
 
-.visuals {
+div.visualizations-images {
     display: inline-flex;
     flex-wrap: wrap;
     background: white;
     padding: 50px 25px;
     margin: 100px auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+div.visuals {
+    display: inline-flex;
+    flex-wrap:wrap;
+    height: auto;
+    width:100%;
+    vertical-align: middle;
+    border-style: none;
 }
 
 /* .summary-block, 
@@ -65,4 +79,20 @@ body {
     display:flex;
 
 } */
+
+@media only screen and (min-width: 600px) {
+    .visuals > a {
+        flex: 0 50%;
+    }
+
+    .summary {
+        flex-direction: row;
+    }
+}
 /* Font styling */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: darkturquoise;
+}
