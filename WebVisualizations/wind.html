@@ -11,7 +11,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
     crossorigin="anonymous">
     <!-- Boilerplate that needs changing between pages -->
-    <link rel="stylesheet" type="text/css" href="landing_style.css">
+    <link rel="stylesheet" type="text/css" href="max_temp_style.css">
 </head>
 
 <body>
@@ -56,20 +56,19 @@
         <div class="row">
             <div class="summary-block col-12 col-md-6">
                 <h1>
-                    Summary: Latitude vs. X
+                    Wind Speeds
                 </h1>
                 </br>
                 <div class="summary">
-                    <a href='http://localhost:52330/WebVisualizations/max_temp.html'><img src="WebVisualizations\Resources\assets\images\Fig1.png" id="temp-img"></a>
+                    <a href='http://localhost:52330/WebVisualizations/wind.html'><img src="Resources\assets\images\Fig4.png" id="temp-img"></a> 
+                </div>
+                <div class="summary-text"> 
                     <span>
                         <p>
-                            The purpose of this project was to analyze how weather changes as you approach closer to the equator.
-                            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities across the globe.
+                            Wind speeds appear to generally tend to vary regardless as to one's latitudinal positioning relative to the equator (0 Deg. Latitude). However, it is possible that varying climates
+                            may impact weather systems or air currents, which are highly relevant in determining wind speed.  
                         </p>
-                    </span>
-                </div>
-                <div class="summary-text">       
-                    <p> After assembling the dataset, we used Matplotlib to plot various aspects of weather against latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trendsand correlations witnessed.</p>
+                    </span>      
                 </div>
             </div>
             <div class="visualizations-images col-12 col-md-5 offset-md-1">
@@ -77,10 +76,10 @@
                     Visualizations
                 </h2>
                 <div class="visuals">
-                  <a href='http://localhost:52330/WebVisualizations/max_temp.html'><img src="WebVisualizations\Resources\assets\images\Fig1.png" id="temperature-img"></a>
-                  <a href='#'><img src="WebVisualizations\Resources\assets\images\Fig2.png" id="humidity-img"></a>
-                  <a href='http://localhost:52330/WebVisualizations/cloudiness.html'><img src="WebVisualizations\Resources\assets\images\Fig3.png" id="cloudiness-img"></a>
-                  <a href='http://localhost:52330/WebVisualizations/wind.html'><img src="WebVisualizations\Resources\assets\images\Fig4.png" id="wind-img"></a>
+                  <a href='http://localhost:52330/WebVisualizations/max_temp.html'><img src="Resources\assets\images\Fig1.png" id="temperature-img"></a>
+                  <a href='#'><img src="Resources\assets\images\Fig2.png" id="humidity-img"></a>
+                  <a href='http://localhost:52330/WebVisualizations/cloudiness.html'><img src="Resources\assets\images\Fig3.png" id="cloudiness-img"></a>
+                  <a href='http://localhost:52330/WebVisualizations/wind.html'><img src="Resources\assets\images\Fig4.png" id="wind-img"></a>
                 </div>
                
             </div>
