@@ -1,0 +1,92 @@
+body {
+    background-color: #f1f1f1;
+}
+
+#title {
+    color:#fff;
+    background-color:turquoise;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+#navbar-expand-lg navbar-light bg-light
+
+.navbar {  
+    padding: 10px;
+    background-color:#fff;  
+}
+
+.navbar h1{
+    background:turquoise;
+    padding:10px;
+    color:#fff;
+}
+
+.navbar li {
+    display:inline;
+    margin-right:10px;
+    margin-left:10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navbar li a {
+    color:grey;
+    text-decoration: none;
+}
+
+#title.navbar-brand {
+    color:#fff;
+    text-decoration: none;
+    background-color: turquoise;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size-adjust: none;
+}
+
+.visuals {
+    display: flex;
+    flex-wrap: wrap;
+}
+.summary {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.content > span,
+.content > a {
+    flex: 1;
+}
+img {
+    height: auto;
+    width: 100%;
+}
+
+.summary-block,
+.visualizations-images {
+    background: white;
+    padding: 50px 25px;
+    margin: 100px auto;
+}
+
+/* Text styling */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: turquoise;
+    text-decoration: none;
+    /* background-color: turquoise; */
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size-adjust: none;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .visuals > a {
+        flex: 0 50%;
+    }
+
+    .summary {
+        flex-direction: row;
+    }
+}
