@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+      <title>Web-Design-Challenge</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
+    <!-- Boilerplate that needs changing between pages -->
+    <link rel="stylesheet" type="text/css" href="max_temp_style.css">
+</head>
+
+<body>
+  <!-- This is where the navbar is -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="http://localhost:52330/landing.html" id="title">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:52330/landing.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:52330/comparisons.html">Comparison</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Max Temperature</a>
+              <a class="dropdown-item" href="#">Cloudiness</a>
+              <a class="dropdown-item" href="#">Humidity</a>
+              <a class="dropdown-item" href="#">Wind Speed</a>
+
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:52330/WebVisualizations/data.html" tabindex="-1">Data</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- This is where the container starts -->
+    <div class="container">
+        <div class="row">
+            <div class="summary-block col-12 col-md-6">
+                <h1>
+                    Max Temperature
+                </h1>
+                </br>
+                <div class="summary">
+                    <a href='#'><img src="Resources\assets\images\Fig1.png" id="temp-img"></a> 
+                </div>
+                <div class="summary-text"> 
+                    <span>
+                        <p>
+                            As expected, the weather becomes signficantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly,
+                            however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the title of the earth at the time of the year this data was taken.
+                        </p>
+                    </span>      
+                </div>
+            </div>
+            <div class="visualizations-images col-12 col-md-5 offset-md-1">
+                <h2>
+                    Visualizations
+                </h2>
+                <div class="visuals">
+                  <a href=''><img src="Resources\assets\images\Fig1.png" id="temperature-img"></a>
+                  <a href='#'><img src="Resources\assets\images\Fig2.png" id="humidity-img"></a>
+                  <a href='#'><img src="Resources\assets\images\Fig3.png" id="cloudiness-img"></a>
+                  <a href='#'><img src="Resources\assets\images\Fig4.png" id="wind-img"></a>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+
+    </div>
+</body>
+</html>
