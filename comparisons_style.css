@@ -54,23 +54,14 @@ body {
     border-style: none;
 }
 
-div.visualizations-images {
+div.visualizations-images, div.visuals, div.img {
     display: inline-flex;
     flex-wrap: wrap;
     background: white;
-    padding: 50px 25px;
     margin: 100px auto;
     vertical-align: middle;
     border-style: none;
-}
-
-div.visuals {
-    display: inline-flex;
-    flex-wrap:wrap;
-    height: auto;
-    width:100%;
-    vertical-align: middle;
-    border-style: none;
+    padding:2px;
 }
 
 /* .summary-block, 
